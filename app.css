@@ -1,0 +1,39 @@
+#gridgame {
+  width:            100%;
+  height:           100%;
+}
+
+#gridgame .black-text {
+  color:            #666666;
+  transition:       color 1s linear;
+}
+
+#gridgame td {
+  font-size:        0.6rem;
+  font-family:      arial;
+  border-radius:    40px;
+  text-align:       center;
+  background-color: #e6e6e6;
+  color:            white;
+  cursor:           pointer;
+  padding:          1px;
+  border:           1px solid transparent;
+  transition:       background-color 0.5s linear, border 1s linear;
+}
+
+#gridgame td:hover {
+  border:           1px solid black;
+  transition:       border 0.1s linear;
+}
+
+#gridgame td.bright-yellow {
+  color:            white;
+  background-color: #FFF9C4;
+  transition:       background-color 0.5s linear, color 1s linear;
+}
+
+#gridgame td.green {
+  color:            white;
+  background-color: #C5E1A5;
+  transition:       background-color 0.5s linear, color 1s linear;
+}
