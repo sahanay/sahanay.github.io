@@ -4,6 +4,7 @@
 }
 
 #gridgame .black-text {
+  background-color: grey;
   color:            #666666;
   transition:       color 0.5s linear;
 }
