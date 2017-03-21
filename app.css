@@ -4,8 +4,8 @@
 }
 
 #gridgame .black-text {
-  background-color: grey;
-  color:            white;
+  background-color: #bdbdbd;
+  color:            black;
   transition:       color 0.5s linear;
 }
 
@@ -15,6 +15,7 @@
   border-radius:    40px;
   text-align:       center;
   background-color: #e6e6e6;
+  width:            3px;
   color:            white;
   cursor:           pointer;
   padding:          1px;
